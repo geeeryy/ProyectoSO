@@ -1,0 +1,11 @@
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\bin\Debug\version1.exe.config
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\bin\Debug\version1.exe
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\bin\Debug\version1.pdb
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.csproj.AssemblyReference.cache
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.Cliente.resources
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.FormRegister.resources
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.Properties.Resources.resources
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.csproj.GenerateResource.cache
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.csproj.CoreCompileInputs.cache
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.exe
+C:\Users\gerar\OneDrive\Escriptori\UPC\Q4\SO\cliente\version1\obj\Debug\version1.pdb
