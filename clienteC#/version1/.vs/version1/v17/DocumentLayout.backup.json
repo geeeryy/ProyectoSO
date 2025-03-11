@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|c:\\users\\34634\\desktop\\q4\\so\\projecte\\proyectoso\\clientec#\\version1\\formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|solutionrelative:formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|c:\\users\\34634\\desktop\\q4\\so\\projecte\\proyectoso\\clientec#\\version1\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\formconsulta.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|c:\\users\\34634\\desktop\\q4\\so\\projecte\\proyectoso\\clientec#\\version1\\formconsulta.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13DDB411-D814-4DF2-B139-17C5AD8E64C1}|version1.csproj|solutionrelative:formconsulta.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "FormConsulta.cs",
               "ToolTip": "C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\FormConsulta.cs",
               "RelativeToolTip": "FormConsulta.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAA1wFcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T14:15:02.543Z",
               "EditorCaption": ""
@@ -74,7 +74,8 @@
               "ToolTip": "C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\FormConsulta.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormConsulta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:10:07.45Z"
+              "WhenOpened": "2025-03-11T14:10:07.45Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -85,7 +86,8 @@
               "ToolTip": "C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\Cliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "Cliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:22:05.875Z"
+              "WhenOpened": "2025-03-08T19:22:05.875Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -97,7 +99,8 @@
               "RelativeToolTip": "Cliente.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAA0wIIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:32:19.43Z"
+              "WhenOpened": "2025-03-08T19:32:19.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,7 +112,8 @@
               "RelativeToolTip": "FormConsulta.Designer.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAAAwwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:39:35.068Z"
+              "WhenOpened": "2025-03-11T14:39:35.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -120,7 +124,8 @@
               "ToolTip": "C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\FormRegister.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormRegister.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:46:08.864Z"
+              "WhenOpened": "2025-03-08T19:46:08.864Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -132,7 +137,8 @@
               "RelativeToolTip": "FormLogin.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAEwCAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T00:39:01.572Z"
+              "WhenOpened": "2025-03-09T00:39:01.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -144,7 +150,8 @@
               "RelativeToolTip": "FormRegister.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T20:11:18.947Z"
+              "WhenOpened": "2025-03-08T20:11:18.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,7 +162,8 @@
               "ToolTip": "C:\\Users\\34634\\Desktop\\Q4\\SO\\projecte\\ProyectoSO\\clienteC#\\version1\\FormLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T00:38:21.568Z"
+              "WhenOpened": "2025-03-09T00:38:21.568Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

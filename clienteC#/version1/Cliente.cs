@@ -22,6 +22,7 @@ namespace version1
         Socket server;
         FormLogin FLogin = new FormLogin();
         FormRegister FRegister = new FormRegister();
+        FormConsulta FConsulta = new FormConsulta();
         string nombre, id, dni, contra;
         int edad;
         bool logged = false,connected = false;
@@ -49,12 +50,20 @@ namespace version1
                     server.Receive(msg2);
                     mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
 
-                    !!tratar la respuesta bien
+                    //tratar la respuesta bien
 
 
-                    if (SI HA IDO BIEN)
+                    if (Convert.ToInt32(mensaje)==1)
                     {
                         logged = true;
+                        FConsulta.setId(this.id);
+                        FConsulta.setServer(this.server);
+                        FConsulta.setContra(this.contra);
+                        FConsulta.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se ha podido iniciar sesión");
                     }
 
                 }
@@ -79,7 +88,7 @@ namespace version1
                 this.edad = FRegister.getEdad();
                 this.id = FRegister.getId();
                 this.contra = FRegister.getContra();
-                string mensaje = "1/" + nombre + "/" + dni + "/" + edad + "/" + id + "/" + contra;
+                string mensaje = "1/" + id + "/" + contra + "/" + dni + "/" + nombre + "/" + edad;
                 // Enviamos al servidor el registro tecleado
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
@@ -87,10 +96,11 @@ namespace version1
                 //Recibimos la respuesta del servidor si es 0 todo ha ido bien
                 byte[] msg2 = new byte[80];
                 server.Receive(msg2);
-                !!mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
-                if (Convert.ToInt32(mensaje) == 0)
+                mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
+                if (mensaje == "1")
                 {
                     MessageBox.Show("Usted se ha registrado correctamente");
+                    
                 }
                 else
                 {
@@ -104,12 +114,10 @@ namespace version1
             if (Bcon.Text == "Desconectar")
             {
                 //Mensaje de desconexión
-                string mensaje = "0/";
+                string mensaje = "0";
 
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
-
-                // Nos desconectamos
                 this.BackColor = Color.Gray;
                 Bcon.Text = "Conectar";
                 server.Shutdown(SocketShutdown.Both);
@@ -119,10 +127,8 @@ namespace version1
             {
                 //Creamos un IPEndPoint con el ip del servidor y puerto del servidor 
                 //al que deseamos conectarnos
-                !!IPAddress direc = IPAddress.Parse("192.168.56.102");
-                IPEndPoint ipep = new IPEndPoint(direc, 9050);
-
-
+                IPAddress direc = IPAddress.Parse("192.168.56.102");
+                IPEndPoint ipep = new IPEndPoint(direc, 9000);
                 //Creamos el socket 
                 server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 try
@@ -134,7 +140,7 @@ namespace version1
                     connected=true;
 
                 }
-                catch (SocketException ex)
+                catch (SocketException)
                 {
                     //Si hay excepcion imprimimos error y salimos del programa con return 
                     MessageBox.Show("No he podido conectar con el servidor");
