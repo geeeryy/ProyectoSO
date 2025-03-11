@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 	//htonl formatea el numero que recibe al formato necesario
 	serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
 	// establecemos el puerto de escucha
-	serv_adr.sin_port = htons(9000);
+	serv_adr.sin_port = htons(9001);
 	if (bind(sock_listen, (struct sockaddr *) &serv_adr, sizeof(serv_adr)) < 0)
 		printf ("Error al bind");
 	
@@ -251,7 +251,31 @@ int main(int argc, char *argv[])
 				
 				case 5:
 				{
-					
+					int fechamenor=0;
+					int fechamayor=0;
+					p = strtok( copiaPeticion, "/");
+					p = strtok( NULL, "/");
+					p = strtok( NULL, "/");
+					p = strtok( NULL, "/");
+					fechamenor = atoi(p);
+					p = strtok( NULL, "/");
+					fechamayor = atoi(p);
+					sprintf(consulta, "SELECT COUNT(id_partida) FROM partidas WHERE fecha > %d AND fecha < %d", fechamenor, fechamayor);
+					if (mysql_query(conn, consulta) != 0) {
+						printf("Error al consultar partidas: %u %s\n", mysql_errno(conn), mysql_error(conn));
+						mysql_close(conn);
+						exit(1);
+					}
+					resultado = mysql_store_result(conn);
+					if (resultado == NULL) {
+						printf("Error al obtener el resultado de la consulta.\n");
+						mysql_close(conn);
+						exit(1);
+					}
+					row = mysql_fetch_row(resultado);
+					strcpy(respuesta,row[0]);
+					respuesta[strlen(respuesta)]= '\0';
+					write (sock_conn,respuesta, strlen(respuesta)+1);					
 				}
 				break;
 				

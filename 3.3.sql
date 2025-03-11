@@ -36,7 +36,7 @@ numjugadas integer NOT NULL,
 maxjugadores integer NOT NULL,
 duracion float NOT NULL,
 bet0 integer NOT NULL,
-fecha varchar(100) NOT NULL
+fecha integer NOT NULL
 )ENGINE=InnoDB;
 
 
@@ -61,9 +61,9 @@ INSERT INTO informacion VALUES (8000, 8000, 300, 10,'J2');
 INSERT INTO informacion VALUES (8000, 8000, 90, 5,'J3');
 
 
-INSERT INTO partidas VALUES('P1',25,3,30,100,'26/02/2025');
-INSERT INTO partidas VALUES('P2',40,2,25,150,'27/02/2025');
-INSERT INTO partidas VALUES('P3',20,2,15,50,'28/02/2025');
+INSERT INTO partidas VALUES('P1',25,3,30,100,02);
+INSERT INTO partidas VALUES('P2',40,2,25,150,05);
+INSERT INTO partidas VALUES('P3',20,2,15,50,07);
 
 
 INSERT INTO participantes VALUES ('J1','P1','gery');

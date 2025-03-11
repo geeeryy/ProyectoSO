@@ -46,3 +46,16 @@ C:\Users\34634\Desktop\Q4\SO\projecte\ProyectoSO\clienteC#\version1\obj\Debug\ve
 C:\Users\34634\Desktop\Q4\SO\projecte\ProyectoSO\clienteC#\version1\obj\Debug\version1.exe
 C:\Users\34634\Desktop\Q4\SO\projecte\ProyectoSO\clienteC#\version1\obj\Debug\version1.pdb
 C:\Users\34634\Desktop\Q4\SO\projecte\ProyectoSO\clienteC#\version1\obj\Debug\version1.FormConsulta.resources
+D:\UPC\SO\version1-20250311T213024Z-001\version1\bin\Debug\version1.exe.config
+D:\UPC\SO\version1-20250311T213024Z-001\version1\bin\Debug\version1.exe
+D:\UPC\SO\version1-20250311T213024Z-001\version1\bin\Debug\version1.pdb
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.csproj.AssemblyReference.cache
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.Cliente.resources
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.FormConsulta.resources
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.FormLogin.resources
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.FormRegister.resources
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.Properties.Resources.resources
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.csproj.GenerateResource.cache
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.csproj.CoreCompileInputs.cache
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.exe
+D:\UPC\SO\version1-20250311T213024Z-001\version1\obj\Debug\version1.pdb
