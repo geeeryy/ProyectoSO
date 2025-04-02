@@ -144,6 +144,7 @@ namespace version1
                 {
                     //Si hay excepcion imprimimos error y salimos del programa con return 
                     MessageBox.Show("No he podido conectar con el servidor");
+                    //
                     return;
                 }
             }
